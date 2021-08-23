@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         length: 2,
         child: Scaffold(
           appBar: AppBar(
-              title: Text('Contoh Tab Bar'),
+              title: Text('Contoh Tab Bar Anjas'),
               bottom: PreferredSize(
                   preferredSize: Size.fromHeight(tabBarku.preferredSize.height),
                   child: Container(color: Colors.lightGreen, child: tabBarku))),
